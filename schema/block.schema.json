@@ -10,13 +10,13 @@
       "properties": {
         "_assessment": {
           "type": "object",
-          "title": "Assessment",
+          "title": "Ocena",
           "default": {},
           "properties": {
             "_quizBankID": {
               "type": "number",
-              "title": "Bank ID",
-              "description": "Used to group blocks of question components into associated banks. This works in conjunction with the 'Question counts' property when question banks are in use",
+              "title": "ID banku",
+              "description": "Służy do grupowania bloków komponentów pytań w powiązane banki. Działa to w połączeniu z właściwością 'Liczba pytań', gdy używane są banki pytań.",
               "default": 1,
               "_backboneForms": {
                 "editorAttrs": {

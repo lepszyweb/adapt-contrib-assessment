@@ -10,25 +10,25 @@
       "properties": {
         "_assessment": {
           "type": "object",
-          "title": "Assessment",
+          "title": "Ocena",
           "default": {},
           "properties": {
             "_isPercentageBased": {
               "type": "boolean",
-              "title": "Set pass mark as percentage",
-              "description": "Determines whether the pass mark values should be treated as percentages (default) or as the raw score and correctness",
+              "title": "Ustawienie oceny pozytywnej w procentach",
+              "description": "Określa, czy wartości punktów zaliczeniowych mają być traktowane jako procenty (domyślnie), czy jako wynik surowy i poprawność.",
               "default": true
             },
             "_scoreToPass": {
               "type": "number",
-              "title": "Pass mark",
-              "description": "The minimum score required by the learner to pass the assessment or the minimum percentage score if percentage-based",
+              "title": "Ocena pozytywna",
+              "description": "Minimalny wynik wymagany do zaliczenia oceny przez osobę uczącą się lub minimalny wynik procentowy, jeśli ocena ma charakter procentowy.",
               "default": 60
             },
             "_correctToPass": {
               "type": "number",
-              "title": "Correct pass mark",
-              "description": "The minimum number of correct questions required by the learner to pass the assessment or the minimum percentage correct if percentage-based",
+              "title": "Prawidłowa ocena pozytywna",
+              "description": "Minimalna liczba poprawnych pytań wymaganych przez uczącego się do zaliczenia oceny lub minimalny procent poprawności w przypadku oceny procentowej.",
               "default": 60
             }
           }
